@@ -126,12 +126,12 @@ main h2 {
 
 
 #mapid { 
-    height: 360px;
+    height: 500px;
     width: 50rem;
     border-width: 2px;
     border-radius: 10px;
     border-style: solid;
-    border-color: rgb(230, 54, 23);
+    border-color: #756461;
   }
 
 p {

@@ -7,7 +7,7 @@ fetch("http://localhost:3000/trails")
         .addTo(mymap)
         .bindPopup(
             `
-                <a href ='http://localhost:3001/trail.html'>
+                <a href ='http://localhost:3001/trail.html' style="font-size:large">
                     ${trail.name} - ${trail.distance}miles
                     <span style="display:block">\n\nTrail Conditions: ${trailConditionRandomizer()}</span>
                 </a>
