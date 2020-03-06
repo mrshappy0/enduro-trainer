@@ -175,3 +175,29 @@ p {
     text-align: center;
 
 }
+
+.trail-info {
+    background-color:  #d6d6d6;
+    position: fixed;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffc368;
+    color: #0e1a31;
+    padding: 1rem;
+    width: 700px;
+    top: 220px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.add-bold {
+    font-weight: 800;
+    font-size: large;
+}
+
+div.to-do-box h2{
+    font-size: large;
+}
