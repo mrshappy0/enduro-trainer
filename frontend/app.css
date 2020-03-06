@@ -149,7 +149,8 @@ p {
     top: 300px;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-50%, -50%);
+    text-align: left;
    }
 
 .p-tag{
