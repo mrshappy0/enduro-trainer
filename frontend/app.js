@@ -3,6 +3,8 @@ const welcomeMessage = document.querySelector(".text-white.h4");
 const logOutButton = document.getElementById("logOutButton")
 const welcomeBox =document.querySelector(".welcome-box")
 const main = document.querySelector("main")
+const toDoBox = document.querySelector(".to-do-box")
+
 
 window.addEventListener("DOMContentLoaded", event => {
   hideLoginIfToken();
@@ -25,6 +27,8 @@ function hideLoginIfToken() {
         userSignUpForm.classList.add("hidden");
         signUpHamburger.classList.add("hidden");
         logOutButton.classList.remove("hidden");
+        // welcomeBox.classList.add("hidden")
+        toDoBox.classList.remove("hidden")
   }
 }
 
