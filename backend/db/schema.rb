@@ -19,10 +19,11 @@ ActiveRecord::Schema.define(version: 2020_03_06_175920) do
     t.string "name"
     t.string "summary"
     t.string "difficulty"
+    t.string "location"
     t.string "rating"
-    t.integer "distance"
-    t.integer "latitude"
-    t.integer "longitude"
+    t.float "distance"
+    t.float "latitude"
+    t.float "longitude"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -10,7 +10,18 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="map.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+      crossorigin=""
+    ></script>
   </head>
   <body>
     <div class="pos-f-t" id="bob">
@@ -123,7 +134,7 @@
                   Dropdown
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="http://localhost:3001/map.html">Front Range Map</a>
+                  <a class="dropdown-item" href="#">Front Range Map</a>
                   <a class="dropdown-item" href="#">Another action</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Something else here</a>
@@ -148,36 +159,25 @@
         </nav>
       </nav>
     </div>
-    <main>
-      <div class="welcome-box">
-        <h2>
-          Welcome to
-          <span style="color:#ea880a">Front Range Enduro</span> trainer.
-        </h2>
-        <div class="p-tag">
-          <p>
-            Here you can build your training to-do list. While you are here, use
-            the search bar to learn about some of the trails the Colorado Front
-            Range has to offer. Click the hamburger to login or create a user.
-          </p>
+    <div class="flexbox">
+        <div id="mapid"></div>
+        <div class="to-do-box">
+          <h2>To-Do List</h2>
+          <ul>
+            <li>
+              Eat Healthy, drink water!
+            </li>
+            <li>
+              Ride Left Hand on Thursday
+            </li>
+            <li>
+              Do Strength and Conditioning!
+            </li>
+          </ul>
         </div>
-      </div>
-    </main>
-    <div class="to-do-box">
-      <h2>To-Do List</h2>
-      <ul>
-        <li>
-          Eat Healthy, drink water!
-        </li>
-        <li>
-          Ride Left Hand on Thursday
-        </li>
-        <li>
-          Do Strength and Conditioning!
-        </li>
-      </ul>
     </div>
     <script src="app.js"></script>
+    <script src="map.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
