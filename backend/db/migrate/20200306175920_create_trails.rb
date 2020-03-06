@@ -4,10 +4,11 @@ class CreateTrails < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :summary
       t.string :difficulty
+      t.string :location
       t.string :rating
-      t.integer :distance
-      t.integer :latitude
-      t.integer :longitude 
+      t.float :distance
+      t.float :latitude
+      t.float :longitude 
 
       t.timestamps
     end

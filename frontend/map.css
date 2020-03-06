@@ -122,16 +122,14 @@ main h2 {
     padding: 3rem;
     padding-top: 0;
     font-weight: 800;
-    /* background-color: #576b6b; */
 }
 
-/* #mapid { height: 180px; } */
 
 #mapid { 
-    /* height: 30rem;  */
     height: 360px;
-    /* width: 30rem; */
-    border-width: 4px;
+    width: 50rem;
+    border-width: 2px;
+    border-radius: 10px;
     border-style: solid;
     border-color: rgb(230, 54, 23);
   }
@@ -157,20 +155,23 @@ p {
 }
 
 .to-do-box{
-    /* background-color: rgba(182, 116, 116, 0); */
     background-color:  #d6d6d6;
-    position: fixed;
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
     border-color: #ffc368;
     color: #0e1a31;
     padding: 1rem;
-    width: 700px;
-    top: 500px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    width: 500px;
+
     text-align: center;
 
+}
+
+.flexbox{
+    display:flex;
+    flex-direction: row;
+    background-color: #a5a5a5;
+    justify-content: space-evenly;
+    padding: 4rem;
 }
