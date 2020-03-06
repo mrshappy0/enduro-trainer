@@ -2,7 +2,7 @@ fetch("http://localhost:3000/trails")
   .then(response => response.json())
   .then(trails => {
     trails.map(trail => {
-      console.log(trail)
+    //   console.log(trail)
       let marker = L.marker([trail.latitude, trail.longitude])
         .addTo(mymap)
         .bindPopup(

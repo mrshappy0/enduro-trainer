@@ -5,7 +5,7 @@ const trailInfoList = document.querySelector(".trail-info-list");
 fetch(`http://localhost:3000/trails/${query_id}`)
   .then(response => response.json())
   .then(trail => {
-    console.log(trail);
+    // console.log(trail);
     let h2 = document.createElement("h2");
     let li0 = document.createElement("li");
     let li1 = document.createElement("li");
@@ -13,6 +13,7 @@ fetch(`http://localhost:3000/trails/${query_id}`)
     let li3 = document.createElement("li");
     let li4 = document.createElement("li");
     h2.innerText = `Trail Name: ${trail.name}`;
+    h2.classList.add("add-bold")
     li0.innerText = `Summary: ${trail.summary}`;
     li1.innerText = `Location: ${trail.location}`;
     li2.innerText = `Rowdiness level: ${trail.difficulty}`;
