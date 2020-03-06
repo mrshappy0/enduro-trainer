@@ -27,7 +27,7 @@ function hideLoginIfToken() {
         userSignUpForm.classList.add("hidden");
         signUpHamburger.classList.add("hidden");
         logOutButton.classList.remove("hidden");
-        // welcomeBox.classList.add("hidden")
+        welcomeBox.classList.add("hidden")
         toDoBox.classList.remove("hidden")
   }
 }
