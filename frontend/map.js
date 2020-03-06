@@ -2,12 +2,12 @@ fetch("http://localhost:3000/trails")
   .then(response => response.json())
   .then(trails => {
     trails.map(trail => {
-    //   console.log(trail)
+      console.log(trail)
       let marker = L.marker([trail.latitude, trail.longitude])
         .addTo(mymap)
         .bindPopup(
             `
-                <a href ='http://localhost:3001/trail.html' style="font-size:large">
+                <a href ='http://localhost:3001/trail.html?id=${trail.id}' style="font-size:large">
                     ${trail.name} - ${trail.distance}miles
                     <span style="display:block">\n\nTrail Conditions: ${trailConditionRandomizer()}</span>
                 </a>
@@ -17,7 +17,7 @@ fetch("http://localhost:3000/trails")
     });
   });
 
-var mymap = L.map("mapid").setView([39.76897, -104.97425], 6);
+var mymap = L.map("mapid").setView([39.76897, -104.97425], 3);
 
 var Stamen_TerrainBackground = L.tileLayer(
 	"https://stamen-tiles-{s}.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}{r}.{ext}",
