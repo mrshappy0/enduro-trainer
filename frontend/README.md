@@ -12,7 +12,7 @@ Install Lite-server if you want an easy way to run this code on a local server.
 
 <!-- Frontend Video Demo -->
 ## Frontend Auth Demo
-![Frontend Auth Demo](https://medium.com/@josephcardillo/how-to-add-gifs-to-your-github-readme-89c74da2ce47)
+![Frontend Auth Demo](https://media.giphy.com/media/ZGBujkcxQEtkPYrV2U/giphy.gif)
 
 <!-- Contributors -->
 ## Contributors Guide
