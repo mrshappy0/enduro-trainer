@@ -5,7 +5,8 @@ Welcome to Frontrange Enduro Trainer. This application features full authenticat
 
 <!-- Frontend Video Demo -->
 ### Video Demo with Audio
-![Frontend Auth Demo](https://youtu.be/zBAbWel-8cw)
+<!-- ![Frontend Auth Demo](https://youtu.be/zBAbWel-8cw) -->
+[![Frontend Demo]](http://img.youtube.com/vi/zBAbWel-8cw/0.jpg)](https://www.youtube.com/watch?v=zBAbWel-8cw "Frontend Demo")
 
 ### Login/Logout Feature
 ![Frontend Auth Demo](https://media.giphy.com/media/IgLZTUsOBGHWDP25mu/giphy.gif)
