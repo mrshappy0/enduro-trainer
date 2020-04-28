@@ -11,8 +11,11 @@ In order to run this application fork and/or clone this repo.
 Install Lite-server if you want an easy way to run this code on a local server.
 
 <!-- Frontend Video Demo -->
-## Frontend Auth Demo
-![Frontend Auth Demo](https://media.giphy.com/media/ZGBujkcxQEtkPYrV2U/giphy.gif)
+### Login/Logout Feature
+![Frontend Auth Demo](https://media.giphy.com/media/IgLZTUsOBGHWDP25mu/giphy.gif)
+
+### Leaflet Interactive Trail Map
+![Frontend Auth Demo](https://media.giphy.com/media/YOGe2Un40OwGSg6wDW/giphy.gif)
 
 <!-- Contributors -->
 ## Contributors Guide
