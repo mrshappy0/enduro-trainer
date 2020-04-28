@@ -16,6 +16,4 @@ Install Lite-server if you want an easy way to run this code on a local server.
 
 <!-- Contributors -->
 ## Contributors Guide
-<ul>
-    <li>![Adam Shappy](https://github.com/mrshappy0)</li>
-</ul>
+- ![Adam Shappy](https://github.com/mrshappy0)
